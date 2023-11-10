@@ -1,0 +1,26 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sha777nk/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sha777nk/portfolio/issues"
+  },
+  "homepage": "https://github.com/Sha777nk/portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
