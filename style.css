@@ -265,6 +265,8 @@ span{
 #menu-icon{
     font-size: 3.6rem;
     color: var(--text-color);
+    margin-right: 40px;
+    float: left;
     display: none;
 }
 
@@ -538,7 +540,7 @@ span{
 @media (max-width: 768px ){
     #menu-icon{
         display: block;
-        margin-left: 3rem;
+        float: left;
     }
     .toggle-container {
         display: block;

@@ -66,6 +66,6 @@ window.onscroll=()=>{
         strings: ['Frontend Developer', 'Backend Developer', 'Full Stack Developer'],
         typespeed:500,
         backspeed:500,
-        backdealy:8000,
+        backdealy:500,
         loop:true
     });
