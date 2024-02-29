@@ -3,10 +3,12 @@ const path = require('path');
 const mongoose = require('mongoose'); // Import Mongoose
 mongoose.set('strictQuery', true); // Set strictQuery to false
 
-  mongoose.connect('mongodb://127.0.0.1/shashank', {
-    useNewUrlParser: true,
-  });
+mongoose.connect('mongodb+srv://iamshashank008:StDAb8RmceVwFE8f@cluster0.zua6wmp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+  useNewUrlParser: true
+});
 
+// StDAb8RmceVwFE8f
+// iamshashank008
 
 // Define a Mongoose schema for your form data
 const formDataSchema = new mongoose.Schema({
